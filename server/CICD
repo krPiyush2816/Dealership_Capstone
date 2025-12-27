@@ -1,0 +1,57 @@
+Deployment
+View all
+Deploy a container to an Azure Web App
+By Microsoft Azure
+
+Deploy a container to an Azure Web App logo
+Build a container and deploy it to an Azure Web App.
+
+Deployment
+Deploy to Amazon ECS
+By Amazon Web Services
+
+Deploy to Amazon ECS logo
+Deploy a container to an Amazon ECS service powered by AWS Fargate or Amazon EC2.
+
+Deployment
+Build and Deploy to GKE
+By Google Cloud
+
+Build and Deploy to GKE logo
+Build a docker container, publish it to Google Container Registry, and deploy to GKE.
+
+Deployment
+Deploy to Alibaba Cloud ACK
+By Alibaba Cloud
+
+Deploy to Alibaba Cloud ACK logo
+Deploy a container to Alibaba Cloud Container Service for Kubernetes (ACK).
+
+Deployment
+Deploy to IBM Cloud Kubernetes Service
+By IBM
+
+Deploy to IBM Cloud Kubernetes Service logo
+Build a docker container, publish it to IBM Cloud Container Registry, and deploy to IBM Cloud Kubernetes Service.
+
+Deployment
+Tencent Kubernetes Engine
+By Tencent Cloud
+
+Tencent Kubernetes Engine logo
+This workflow will build a docker container, publish and deploy it to Tencent Kubernetes Engine (TKE).
+
+Deployment
+OpenShift
+By Red Hat
+
+OpenShift logo
+Build a Docker-based project and deploy it to OpenShift.
+
+Deployment
+Build and Deploy with Octopus Deploy
+By Octopus Deploy
+
+Build and Deploy with Octopus Deploy logo
+Build a docker container, create a release in Octopus Deploy and deploy it to your environment.
+
