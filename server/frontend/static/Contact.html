@@ -4,51 +4,42 @@
   <link rel="stylesheet" href="/static/style.css">
   <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
-<div>
+<body class="container">
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
     <div class="container-fluid">
       <h2 style="padding-right: 5%;">Best Cars Dealership</h2>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
-          </li>
+          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link active" href="/contact">Contact Us</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="card" style="width: 80%; margin: auto; margin-top:5%; padding: 20px;">
-    <div style="display: flex; flex-direction: row; justify-content: space-around; align-items: center;">
+  <div class="card" style="width: 95%; margin: auto; margin-top:5%; padding: 20px;">
+    <div style="display: flex; flex-direction: row; justify-content: space-evenly; align-items: flex-start;">
       
-      <div style="width: 40%;">
+      <div style="width: 30%;">
         <img src="/static/contactus.png" alt="Contact Us" style="width: 100%; border-radius: 10px;">
       </div>
 
-      <div style="width: 50%;">
+      <div style="width: 35%; padding: 0 20px;">
         <h1>Contact Us</h1>
         <hr>
         <p><b>Address:</b> 123 Automotive Drive, New Delhi, India</p>
         <p><b>Phone:</b> +91 98765 43210</p>
         <p><b>Email:</b> support@bestcars.com</p>
         <p><b>Working Hours:</b> Mon-Sat, 9:00 AM - 7:00 PM</p>
-        
-        <div style="margin-top: 20px;">
-          <h5>Customer Support</h5>
-          <p>If you have any questions regarding our inventory or services, please reach out to our 24/7 support team at help@bestcars.com.</p>
-        </div>
+      </div>
+
+      <div style="width: 30%;">
+        <img src="/static/cars.jpeg" alt="Our Fleet" style="width: 100%; border-radius: 10px;">
+        <p class="text-center mt-2"><i>Check out our latest inventory!</i></p>
       </div>
 
     </div>
   </div>
-</div>
+</body>
 </html>
