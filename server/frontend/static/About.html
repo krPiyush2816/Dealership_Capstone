@@ -1,26 +1,18 @@
+<!DOCTYPE html>
 <html>
 <head>
   <link rel="stylesheet" href="/static/style.css">
   <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
-<div>
+<body class="container">
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
     <div class="container-fluid">
       <h2 style="padding-right: 5%;">Best Cars Dealership</h2>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
-          </li>
+          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="/about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
         </ul>
       </div>
     </div>
@@ -29,40 +21,42 @@
   <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
       <div class="banner" name="about-header" style="text-align: center; padding: 20px;">
           <h1>About Us</h1>
-          <p>Welcome to Best Cars Dealership, where we provide the highest quality service and the best vehicles in the country since 2010.</p>
+          <p class="mt-3">Welcome to Best Cars Dealership, your premier destination for quality pre-owned and new vehicles. We have been serving the community for over a decade, providing top-tier customer service and a wide selection of cars, SUVs, and trucks. Our mission is to make the car-buying experience transparent, enjoyable, and accessible for everyone.</p>
       </div>
-      <div style="display: flex;flex-direction: row; margin:auto; justify-content: center;">
+
+      <div style="display: flex; flex-direction: row; margin:auto; justify-content: center; padding-bottom: 20px;">
       
       <div class="card" style="width: 30%; margin: 10px;">
-        <img class="card-img-top" src="/static/person.png" alt="CEO">
+        <img class="card-img-top" src="/static/person.png" alt="CEO" style="width:100%">
         <div class="card-body">
           <p class="title" style="font-weight: bold;">Piyush Kumar</p>
           <p>Chief Executive Officer</p>
-          <p class="card-text">Piyush has over 15 years of experience in the automotive industry and leads our strategic vision.</p>
-          <p>piyush.ceo@example.com</p>
+          <p class="card-text">Piyush has over 15 years of leadership in the automotive industry and oversees all dealership operations.</p>
+          <p>piyush.kumar@bestcars.com</p>
         </div>
       </div>
 
       <div class="card" style="width: 30%; margin: 10px;">
-        <img class="card-img-top" src="/static/person.png" alt="Developer">
+        <img class="card-img-top" src="/static/person.png" alt="Manager" style="width:100%">
         <div class="card-body">
-          <p class="title" style="font-weight: bold;">John Smith</p>
-          <p>Lead Developer</p>
-          <p class="card-text">John handles the technical infrastructure of our dealership platform ensuring a smooth user experience.</p>
-          <p>john.smith@example.com</p>
+          <p class="title" style="font-weight: bold;">Jane Doe</p>
+          <p>General Manager</p>
+          <p class="card-text">Jane focuses on customer satisfaction and ensuring our inventory meets the highest standards of quality.</p>
+          <p>jane.doe@bestcars.com</p>
         </div>
       </div>
 
       <div class="card" style="width: 30%; margin: 10px;">
-        <img class="card-img-top" src="/static/person.png" alt="Sales Manager">
+        <img class="card-img-top" src="/static/person.png" alt="Sales" style="width:100%">
         <div class="card-body">
-          <p class="title" style="font-weight: bold;">Sarah Jenkins</p>
-          <p>Customer Relations</p>
-          <p class="card-text">Sarah is dedicated to ensuring every customer finds the perfect car to fit their lifestyle and budget.</p>
-          <p>sarah.j@example.com</p>
+          <p class="title" style="font-weight: bold;">Robert Wilson</p>
+          <p>Lead Sales Consultant</p>
+          <p class="card-text">Robert is an expert in vehicle financing and helps our clients find the best deals for their budget.</p>
+          <p>robert.w@bestcars.com</p>
         </div>
       </div>
+
     </div>
   </div>
-</div>
+</body>
 </html>
